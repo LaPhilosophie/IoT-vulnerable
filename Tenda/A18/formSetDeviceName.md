@@ -20,11 +20,11 @@ The Tenda A18 V15.13.07.09 has a stack overflow vulnerability located in the `fo
 
 
 
-![image-20231206203144308](image\image-20231206203144308.png)
+![image-20231206203144308](image/image-20231206203144308.png)
 
 
 
-![image-20231206203355159](image\image-20231206203355159.png)
+![image-20231206203355159](image/image-20231206203355159.png)
 
 ## PoC
 
