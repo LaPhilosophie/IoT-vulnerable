@@ -30,4 +30,4 @@ response = requests.post(url, data=data)
 print(response.text)
 ```
 
-![image-20240305214216253](C:\Users\杨浩然\AppData\Roaming\Typora\typora-user-images\image-20240305214216253.png)
+![image-20240305214216253](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240305214216253.png)
