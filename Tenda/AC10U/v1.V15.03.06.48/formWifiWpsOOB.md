@@ -8,7 +8,7 @@ AC10U v1.0 Firmware  V15.03.06.48
 
 ## Vulnerability details
 
-The Tenda AC18 V15.03.05.05 firmware has a stack overflow vulnerability in the `formWifiWpsOOB` function. The `index` variable receives the `index` parameter from a POST request. The value is directly used in a `sprintf` function and passes to a local variable on the stack, which can override the return address of the function. The user-provided `index` can trigger this security vulnerability.
+The Tenda AC10U v1.0 Firmware V15.03.06.48 firmware has a stack overflow vulnerability in the `formWifiWpsOOB` function. The `index` variable receives the `index` parameter from a POST request. The value is directly used in a `sprintf` function and passes to a local variable on the stack, which can override the return address of the function. The user-provided `index` can trigger this security vulnerability.
 
 ![image-20240309195802781](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240309195802781.png)
 
