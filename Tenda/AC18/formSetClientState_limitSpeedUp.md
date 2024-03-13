@@ -10,7 +10,7 @@ V15.03.05.05
 
 ## Vulnerability details
 
-The Tenda AC18 V15.03.05.05 firmware has a stack overflow vulnerability in the `formSetClientState` function. The `v10` variable receives the `limitSpeedUp` parameter from a POST request. The value is directly used in a `sprintf` function and passes to a local variable on the stack, which can override the return address of the function. The user-provided `v10` can trigger this security vulnerability.
+The Tenda AC18 V15.03.05.05 firmware has a stack overflow vulnerability in the `formSetClientState` function. The `v10` variable receives the `limitSpeedUp` parameter from a POST request. The value is directly used in a `sprintf` function and passes to a local variable on the stack, which can override the return address of the function. The user-provided `limitSpeedUp` can trigger this security vulnerability.
 
 ![image-20240306000226211](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240306000226211.png)
 
