@@ -8,7 +8,7 @@ AC10U v1.0 Firmware V15.03.06.48
 
 ## Vulnerability details
 
-In Tenda AC18 V15.03.05.05 firmware, we discovered a command injection vulnerablility in the `deviceName` parameter and the `usb_name` varable is directly passed to a `doSystemCmd` function, causing an arbitrary command execution. The user-provided `deviceName` can trigger this security vulnerability.
+In Tenda AC10U v1.0 Firmware V15.03.06.48 firmware, we discovered a command injection vulnerablility in the `deviceName` parameter and the `usb_name` varable is directly passed to a `doSystemCmd` function, causing an arbitrary command execution. The user-provided `deviceName` can trigger this security vulnerability.
 
 ![image-20240313213912075](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240313213912075.png)
 
