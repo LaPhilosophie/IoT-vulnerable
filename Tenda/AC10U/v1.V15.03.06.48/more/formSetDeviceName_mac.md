@@ -8,17 +8,15 @@ AC10U v1.0 Firmware V15.03.06.48
 
 ## Vulnerability details
 
-The Tenda AC10U v1.0 Firmware V15.03.06.48 has a stack overflow vulnerability located in the `formSetDeviceName` function. This function accepts the `mac` parameter from a POST request by `dev_id` variable and passes it to the `set_device_name` function. 
+The Tenda AC10U v1.0 Firmware V15.03.06.48 firmware has a stack overflow vulnerability in the `formSetDeviceName` function. The `dev_id` variable receives the `mac` parameter from a POST request and is passed to function `set_device_name`. In this function, `mac_addr` is directly used in a `sprintf` function and passes to a local variable on the stack, which can override the return address of the function. The user-provided `mac` can trigger this security vulnerability.
 
-![image-20240307202242332](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240307202242332.png)
+![image-20240313233114843](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240313233114843.png)
 
-Within `set_device_name`, the array `mib_name` is fixed at 128 bytes. However, since the user has control over the input of `mac`, the statement `sprintf(mib_name, "client.devicename%s", mac_addr);` leads to a buffer overflow. The user-supplied `mac` can exceed the capacity of the `mib_name` array, thus triggering this security vulnerability.
+![image-20240313233659719](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240313233659719.png)
 
-![image-20240313150525362](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240313150525362.png)
+![image-20240313233713048](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240313233713048.png)
 
-![image-20240313150320528](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240313150320528.png)
-
-## PoC
+## POC
 
 ```python
 import requests
@@ -33,4 +31,4 @@ response = requests.post(url, data=data)
 print(response.text)
 ```
 
-![image-20240307202532447](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240307202532447.png)
+![](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240313233758387.png)
