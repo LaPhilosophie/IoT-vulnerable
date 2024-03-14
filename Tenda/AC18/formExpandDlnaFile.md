@@ -10,7 +10,7 @@ V15.03.05.05
 
 ## Vulnerability details
 
-The Tenda AC18 V15.03.05.05 firmware has a stack overflow vulnerability in the `formExpandDlnaFile` function. The `v18` variable receives the `filePath` parameter from a POST request. The value is directly used in a `sprintf` function and passes to a local variable on the stack, which can override the return address of the function. The user-provided `v18` can trigger this security vulnerability.
+The Tenda AC18 V15.03.05.05 firmware has a stack overflow vulnerability in the `formExpandDlnaFile` function. The `v18` variable receives the `filePath` parameter from a POST request. The value is directly used in a `sprintf` function and passes to a local variable on the stack, which can override the return address of the function. The user-provided `filePath` can trigger this security vulnerability.
 
 ![image-20240305164522670](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240305164522670.png)
 
