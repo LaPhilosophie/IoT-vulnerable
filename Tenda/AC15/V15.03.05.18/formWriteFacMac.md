@@ -8,7 +8,7 @@ AC15 V15.03.05.18
 
 ## Vulnerability details
 
-The Tenda AC15 V15.03.05.18 firmware, we discovered a command injection vulnerablility in `formWriteFacMac` function in the `v3` parameter and the `mac` varable is directly passed to a `doSystemCmd` function, causing an arbitrary command execution. The user-provided `mac` can trigger this security vulnerability.
+The Tenda AC15 V15.03.05.18 firmware, we discovered a command injection vulnerablility in `formWriteFacMac` function in the `mac` parameter and the `v3` varable is directly passed to a `doSystemCmd` function, causing an arbitrary command execution. The user-provided `mac` can trigger this security vulnerability.
 
 ![image-20240314223205430](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240314223205430.png)
 
