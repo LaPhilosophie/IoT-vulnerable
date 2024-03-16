@@ -1,14 +1,14 @@
 ## Overview
 
-- Firmware download website: https://www.tendacn.com/us/download/detail-3851.html
+- Firmware download website: https://www.tendacn.com/us/download/detail-3851.html, https://www.tenda.com.cn/download/detail-2680.html, https://www.tenda.com.cn/download/detail-2710.html
 
 ## Affected version
 
-AC15V1.0 V15.03.20_multi
+AC15V1.0 V15.03.20_multi, AC15 V15.03.05.19, AC15 V15.03.05.18
 
 ## Vulnerability details
 
-The Tenda AC15V1.0 V15.03.20_multi firmware has a stack overflow vulnerability in the `fromSetSysTime` function. The `v20` variable receives the `time` parameter from a POST request and is assigned to `v7~v12` by `sscanf`. However, since the user can control the input of `time`, the statement `sscanf(v20, "%[^-]-%[^-]-%[^ ] %[^:]:%[^:]:%s", v12, v11, v10, v9, v8, v7);` can cause a buffer overflow. The user-provided  `list` can exceed the capacity of the `v7~v12` array, triggering this security vulnerability.
+The Tenda AC15 firmware has a stack overflow vulnerability in the `fromSetSysTime` function. The `v20` variable receives the `time` parameter from a POST request and is assigned to `v7~v12` by `sscanf`. However, since the user can control the input of `time`, the statement `sscanf(v20, "%[^-]-%[^-]-%[^ ] %[^:]:%[^:]:%s", v12, v11, v10, v9, v8, v7);` can cause a buffer overflow. The user-provided  `list` can exceed the capacity of the `v7~v12` array, triggering this security vulnerability.
 
 ![image-20240316222103120](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240316222103120.png)
 
