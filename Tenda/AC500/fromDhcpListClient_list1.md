@@ -1,6 +1,6 @@
 ## Overview
 
-- Firmware download website: https://www.tenda.com.cn/download/detail--2470.html
+- Firmware download website: https://www.tenda.com.cn/download/detail-2470.html
 
 ## Affected version
 
