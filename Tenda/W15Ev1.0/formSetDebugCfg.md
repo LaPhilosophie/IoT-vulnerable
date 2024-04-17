@@ -8,7 +8,7 @@ W15EV1.0 V15.11.0.14
 
 ## Vulnerability details
 
-The Tenda W15EV1.0 V15.11.0.14 firmware has a stack overflow vulnerability in the `formSetDebugCfg` function. The `pEnable, pLevel, pModule` variable receives the `enable, level, module  ` parameter from a POST request. However, since the user can control the input of `enable, level, module`, the statement
+The Tenda W15EV1.0 V15.11.0.14 firmware has a stack overflow vulnerability in the `formSetDebugCfg` function. The `pEnable, pLevel, pModule` variable receives the `enable, level, module` parameter from a POST request. However, since the user can control the input of `enable, level, module`, the statement
 
 ```c
 sprintf(
