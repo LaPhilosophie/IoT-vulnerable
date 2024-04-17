@@ -8,7 +8,7 @@ W15EV1.0 V15.11.0.14
 
 ## Vulnerability details
 
-The Tenda W15EV1.0 V15.11.0.14 firmware has a stack overflow vulnerability in the `formSetPortMapping` function. The `pPortMapIndex` variable receives the `portMappingIndex` parameter from a POST request and we let `iPortMapIndex + 1 <= 20`. However, since the user can control the input of `portMappingServer, portMappingProtocol, portMappingWan, porMappingtInternal, portMappingExternal `, the statement
+The Tenda W15EV1.0 V15.11.0.14 firmware has a stack overflow vulnerability in the `formSetPortMapping` function. The `pPortMapIndex` variable receives the `portMappingIndex` parameter from a POST request and we let `iPortMapIndex + 1 <= 20`. However, since the user can control the input of `portMappingServer, portMappingProtocol, portMappingWan, porMappingtInternal, portMappingExternal`, the statement
 
 ```c
 pLanIP = websGetVar(wp, "portMappingServer", byte_DA130);
