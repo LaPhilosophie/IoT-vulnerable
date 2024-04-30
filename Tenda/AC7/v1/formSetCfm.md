@@ -8,7 +8,7 @@
 
 ## Vulnerability details
 
-In the Tenda AC7V1.0 V15.03.06.44 has a stack overflow vulnerability located in the `formSetCfm` function. This function accepts the `funcpara1` parameter from a POST request and passes it to the `save_list_data` function. Within `save_list_data`, the array `s` is fixed at 64 bytes. However, since the user has control over the input of `funcpara1`, the statement `sprintf(mib_name, "%s.list%d", list_name, counta);` leads to a buffer overflow. The user-supplied `funcpara1` can exceed the capacity of the `mib_name` array, thus triggering this security vulnerability.
+In the Tenda AC7V1.0 V15.03.06.44 has a stack overflow vulnerability located in the `formSetCfm` function. This function accepts the `funcpara1` parameter from a POST request and passes it to the `save_list_data` function. Within `save_list_data`, the array `mib_name` is fixed at 64 bytes. However, since the user has control over the input of `funcpara1`, the statement `sprintf(mib_name, "%s.list%d", list_name, counta);` leads to a buffer overflow. The user-supplied `funcpara1` can exceed the capacity of the `mib_name` array, thus triggering this security vulnerability.
 
 ![image-20240318160040332](https://raw.githubusercontent.com/abcdefg-png/images/main/image-20240318160040332.png)
 
