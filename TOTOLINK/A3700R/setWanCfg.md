@@ -9,7 +9,7 @@ A3700R V9.1.2u.5822_B20200513
 
 ## Vulnerability details
 
-In the A3700R V9.1.2u.6165_20211012 firmware has a command injection vulnerability in the `setWanCfg` function. The `v48` variable receives the `hostName` parameter from a POST request. However, since the user can control the input of `hostName`, the statement `doSystem` can cause a buffer command injection vulnerability.
+In the A3700R V9.1.2u.5822_B20200513 firmware has a command injection vulnerability in the `setWanCfg` function. The `v48` variable receives the `hostName` parameter from a POST request. However, since the user can control the input of `hostName`, the statement `doSystem` can cause a buffer command injection vulnerability.
 
 ![image-20240719022247585](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240719022247585.png)
 
