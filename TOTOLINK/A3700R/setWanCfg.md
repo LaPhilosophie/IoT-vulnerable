@@ -1,11 +1,11 @@
 ## Overview
 
 - Manufacturer's website information：https://www.totolink.net/
-- Firmware download address ：[https://download.totolink.tw/uploads/firmware/A3700R/TOTOLINK_A3700R_V9.1.2u.6165_20211012.zip](https://www.totolink.net/home/menu/detail/menu_listtpl/download/id/257/ids/36.html)
+- Firmware download address ：https://www.totolink.net/data/upload/20200728/311b3ec5b0a8e61af298aebda158ec9b.zip
 
 ## Affected version
 
-A3700R V9.1.2u.6165_20211012
+A3700R V9.1.2u.5822_B20200513
 
 ## Vulnerability details
 
