@@ -9,7 +9,7 @@ A3300R V17.0.0cu.557_B20221024
 
 ## Vulnerability details
 
-In the A3700R V9.1.2u.5822_B20200513 firmware has a command injection vulnerability in the `UploadFirmwareFile` function. The `v2` variable receives the `FileName` parameter from a POST request. However, since the user can control the input of `FileName`, the statement `doSystem` can cause a command injection vulnerability.
+In the A3300R V17.0.0cu.557_B20221024 firmware has a command injection vulnerability in the `UploadFirmwareFile` function. The `v2` variable receives the `FileName` parameter from a POST request. However, since the user can control the input of `FileName`, the statement `doSystem` can cause a command injection vulnerability.
 
 ![image-20240722023936258](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240722023936258.png)
 
