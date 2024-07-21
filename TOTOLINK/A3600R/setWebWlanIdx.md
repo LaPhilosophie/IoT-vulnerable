@@ -9,7 +9,7 @@ A3600R V4.1.2cu.5182_B20201102
 
 ## Vulnerability details
 
-In the A3600R V4.1.2cu.5182_B20201102 firmware has a command injection vulnerability in the `setWebWlanIdx ` function. The `v5` variable receives the `webWlanIdx` parameter from a POST request. However, since the user can control the input of `webWlanIdx`, the `CsteSystem` can cause a command injection vulnerability.
+In the A3600R V4.1.2cu.5182_B20201102 firmware has a command injection vulnerability in the `setWebWlanIdx` function. The `v5` variable receives the `webWlanIdx` parameter from a POST request. However, since the user can control the input of `webWlanIdx`, the `CsteSystem` can cause a command injection vulnerability.
 
 ![image-20240721015317125](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240721015317125.png)
 
