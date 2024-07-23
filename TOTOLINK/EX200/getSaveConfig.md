@@ -9,7 +9,7 @@ EX200 V4.0.3c.7646_B20201211
 
 ## Vulnerability details
 
-In the EX200 V4.0.3c.7646_B20201211 firmware has a buffer overflow vulnerability in the `getSaveConfig` function. The `v6` variable receives the `http_host` parameter from a POST request. However, since the user can control the input of `http_host`, the statement `strcpy((char *)v13, v6);` can cause a buffer overflow injection vulnerability.
+In the EX200 V4.0.3c.7646_B20201211 firmware has a buffer overflow vulnerability in the `getSaveConfig` function. The `v6` variable receives the `http_host` parameter from a POST request. However, since the user can control the input of `http_host`, the statement `strcpy((char *)v13, v6);` can cause a buffer overflow vulnerability.
 
 ![image-20240719230945874](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240719230945874.png)
 
