@@ -9,7 +9,7 @@ A3600R V4.1.2cu.5182_B20201102
 
 ## Vulnerability details
 
-In the A3600R V4.1.2cu.5182_B20201102 firmware has a command injection vulnerability in the `setTelnetCfg` function. The `v5` variable receives the `telnet_enabled` parameter from a POST request. However, since the user can control the input of `telnet_enabled`, the telnet service can cause a buffer overflow vulnerability.
+In the A3600R V4.1.2cu.5182_B20201102 firmware has a command injection vulnerability in the `setTelnetCfg` function. The `v5` variable receives the `telnet_enabled` parameter from a POST request. However, since the user can control the input of `telnet_enabled`, the telnet service can cause a command injection vulnerability.
 
 ![image-20240719233727873](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240719233727873.png)
 
