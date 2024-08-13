@@ -1,4 +1,5 @@
 # IoT-vulnerable
+## Tenda
 We discover vulnerabilities in **30** different router product of **Tenda**, revealed **258 vulnerabilities** and obtained **232 CVEs**, which is listed below.
 
 |     Tenda  Routers      |    Vulnerable  function    |      CVE       | Type of vulnerability |
@@ -235,3 +236,52 @@ We discover vulnerabilities in **30** different router product of **Tenda**, rev
 |                         |    formWifiMacFilterSet    | CVE-2024-4496  |    Buffer Overflow    |
 |                         |       formexeCommand       | CVE-2024-4497  |    Buffer Overflow    |
 |   i22 V1.0.0.3(4687)    |    formSetUrlFilterRule    | CVE-2024-4252  |    Buffer Overflow    |
+
+## TOTOLINK
+We discover vulnerabilities in **19** different router product of **TOTOLINK**, revealed **47 vulnerabilities** and obtained **44 CVEs**, which is listed below.
+| TOTOLINK  Routers | Vulnerable function |      CVE       |  Type of vulnerability   |
+| :---------------: | :-----------------: | :------------: | :----------------------: |
+|      A3000RU      |     product.ini     | CVE-2024-7170  |   Hard-Coded Password    |
+|      A3100R       |    setTelnetCfg     | CVE-2024-7158  |    Command Injection     |
+|                   |    getSaveConfig    | CVE-2024-7157  |     Buffer Overflow      |
+|      A3300R       |       shadow        | CVE-2024-7155  |   Hard-Coded Password    |
+|                   | UploadCustomModule  | CVE-2024-7331  |     Buffer Overflow      |
+|      A3600R       |     product.ini     | CVE-2024-7159  |   Hard-Coded Password    |
+|                   |   NTPSyncWithHost   | CVE-2024-7171  |    Command Injection     |
+|                   |    getSaveConfig    | CVE-2024-7172  |     Buffer Overflow      |
+|                   |      loginauth      | CVE-2024-7173  |     Buffer Overflow      |
+|                   |    setdeviceName    | CVE-2024-7174  |     Buffer Overflow      |
+|                   |   setDiagnosisCfg   | CVE-2024-7175  |    Command Injection     |
+|                   |    setIpQosRules    | CVE-2024-7176  |     Buffer Overflow      |
+|                   |   setLanguageCfg    | CVE-2024-7177  |     Buffer Overflow      |
+|                   |      setMacQos      | CVE-2024-7178  |     Buffer Overflow      |
+|                   |  setParentalRules   | CVE-2024-7179  |     Buffer Overflow      |
+|                   | setPortForwardRules | CVE-2024-7180  |     Buffer Overflow      |
+|                   |    setTelnetCfg     | CVE-2024-7181  |    Command Injection     |
+|                   |    setUpgradeFW     | CVE-2024-7182  |     Buffer Overflow      |
+|                   |  setUploadSetting   | CVE-2024-7183  |     Buffer Overflow      |
+|                   |  setUrlFilterRules  | CVE-2024-7184  |     Buffer Overflow      |
+|                   |    setWebWlanIdx    | CVE-2024-7185  |     Buffer Overflow      |
+|                   | setWiFiAclAddConfig | CVE-2024-7186  |     Buffer Overflow      |
+|                   | UploadCustomModule  | CVE-2024-7187  |     Buffer Overflow      |
+|      A3700R       |     wizard.html     | CVE-2024-7154  | Improper Access Controls |
+|                   |  ExportSettings.sh  | CVE-2024-7156  |  Information Disclosure  |
+|                   |      setWanCfg      | CVE-2024-7160  |    Command Injection     |
+|                   |      loginauth      | CVE-2024-42543 |     Buffer Overflow      |
+|                   |   setPasswordCfg    | CVE-2024-42544 |     Buffer Overflow      |
+|                   |    setWizardCfg     | CVE-2024-42545 |     Buffer Overflow      |
+|      A7000R       |      loginauth      | CVE-2024-7212  |     Buffer Overflow      |
+|                   |    setWizardCfg     | CVE-2024-7213  |     Buffer Overflow      |
+|     CA300-PoE     |      loginauth      | CVE-2024-7217  |     Buffer Overflow      |
+|       CP450       |       product       | CVE-2024-7332  |   Hard-Coded Password    |
+|                   |      loginauth      | CVE-2024-7465  |     Buffer Overflow      |
+|       CP900       | UploadCustomModule  | CVE-2024-7463  |     Buffer Overflow      |
+|                   |    setTelnetCfg     | CVE-2024-7464  |    Command Injection     |
+|       EX200       |      loginauth      | CVE-2024-7336  |     Buffer Overflow      |
+|                   |    getSaveConfig    | CVE-2024-7335  |     Buffer Overflow      |
+|      EX1200       |  setParentalRules   | CVE-2024-7338  |     Buffer Overflow      |
+|                   |      loginauth      | CVE-2024-7337  |     Buffer Overflow      |
+|       LR350       |      setWanCfg      | CVE-2024-7214  |    Command Injection     |
+|      LR1200       |   NTPSyncWithHost   | CVE-2024-7215  |    Command Injection     |
+|                   |       shadow        | CVE-2024-7216  |   Hard-Coded Password    |
+|      N350RT       |    setWizardCfg     | CVE-2024-7462  |     Buffer Overflow      |
