@@ -1,5 +1,9 @@
 # IoT-vulnerable
 ## Tenda
+
+- [Tenda Vulnerabilities](#Tenda)
+- [TOTOLINK Vulnerabilities](#TOTOLINK)
+
 We discover vulnerabilities in **30** different router product of **Tenda**, revealed **258 vulnerabilities** and obtained **232 CVEs**, which is listed below.
 
 |     Tenda  Routers      |    Vulnerable  function    |      CVE       | Type of vulnerability |
