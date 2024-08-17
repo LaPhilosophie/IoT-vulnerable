@@ -1,8 +1,9 @@
 # IoT-vulnerable
-## Tenda
 
 - [Tenda Vulnerabilities](#Tenda)
 - [TOTOLINK Vulnerabilities](#TOTOLINK)
+
+## Tenda
 
 We discover vulnerabilities in **30** different router product of **Tenda**, revealed **258 vulnerabilities** and obtained **232 CVEs**, which is listed below.
 
@@ -242,6 +243,7 @@ We discover vulnerabilities in **30** different router product of **Tenda**, rev
 |   i22 V1.0.0.3(4687)    |    formSetUrlFilterRule    | CVE-2024-4252  |    Buffer Overflow    |
 
 ## TOTOLINK
+
 We discover vulnerabilities in **19** different router product of **TOTOLINK**, revealed **47 vulnerabilities** and obtained **44 CVEs**, which is listed below.
 | TOTOLINK  Routers | Vulnerable function |      CVE       |  Type of vulnerability   |
 | :---------------: | :-----------------: | :------------: | :----------------------: |
