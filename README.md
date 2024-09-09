@@ -296,4 +296,4 @@ We discover vulnerabilities in **19** different router product of **TOTOLINK**, 
 |           |  setStaticDhcpRules  | CVE-2024-8577 |   Buffer Overflow   |
 |           |   setWiFiMeshName    | CVE-2024-8578 |   Buffer Overflow   |
 |           |  setWiFiRepeaterCfg  | CVE-2024-8579 |   Buffer Overflow   |
-|           |        shadow        | CVE-2024-8580 | hard-coded password |
+|           |        shadow        | CVE-2024-8580 | Hard-Coded Password |
