@@ -291,3 +291,9 @@ We discover vulnerabilities in **19** different router product of **TOTOLINK**, 
 |      LR1200       |   NTPSyncWithHost   | CVE-2024-7215  |    Command Injection     |
 |                   |       shadow        | CVE-2024-7216  |   Hard-Coded Password    |
 |      N350RT       |    setWizardCfg     | CVE-2024-7462  |     Buffer Overflow      |
+| AC1200 T8 |     setUpgradeFW     | CVE-2024-8574 |  Command Injection  |
+|           | setIpPortFilterRules | CVE-2024-8576 |   Buffer Overflow   |
+|           |  setStaticDhcpRules  | CVE-2024-8577 |   Buffer Overflow   |
+|           |   setWiFiMeshName    | CVE-2024-8578 |   Buffer Overflow   |
+|           |  setWiFiRepeaterCfg  | CVE-2024-8579 |   Buffer Overflow   |
+|           |        shadow        | CVE-2024-8580 | hard-coded password |
