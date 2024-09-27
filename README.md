@@ -297,3 +297,12 @@ We discover vulnerabilities in **19** different router product of **TOTOLINK**, 
 |           |   setWiFiMeshName    | CVE-2024-8578 |   Buffer Overflow   |
 |           |  setWiFiRepeaterCfg  | CVE-2024-8579 |   Buffer Overflow   |
 |           |        shadow        | CVE-2024-8580 | Hard-Coded Password |
+
+
+## TOTOLINK
+
+We discover vulnerabilities in **3** different router product of **TOTOLINK**, revealed **1 vulnerabilities** and obtained **1 CVEs**, which is listed below.
+
+| TOTOLINK  Routers | Vulnerable function |      CVE       |  Type of vulnerability   |
+| :---------------: | :-----------------: | :------------: | :----------------------: |
+|     TL-WR841ND    | popupSiteSurveyRpm  |  CVE-2024-9284 |     Buffer Overflow      |
