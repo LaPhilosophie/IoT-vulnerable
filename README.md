@@ -2,6 +2,7 @@
 
 - [Tenda Vulnerabilities](#Tenda)
 - [TOTOLINK Vulnerabilities](#TOTOLINK)
+- [TP-LINK Vulnerabilities](#TP-LINK)
 
 ## Tenda
 
@@ -299,9 +300,9 @@ We discover vulnerabilities in **19** different router product of **TOTOLINK**, 
 |           |        shadow        | CVE-2024-8580 | Hard-Coded Password |
 
 
-## TOTOLINK
+## TP-LINK
 
-We discover vulnerabilities in **3** different router product of **TOTOLINK**, revealed **1 vulnerabilities** and obtained **1 CVEs**, which is listed below.
+We discover vulnerabilities in **3** different router product of **TP-LINK**, revealed **1 vulnerabilities** and obtained **1 CVEs**, which is listed below.
 
 | TOTOLINK  Routers | Vulnerable function |      CVE       |  Type of vulnerability   |
 | :---------------: | :-----------------: | :------------: | :----------------------: |
