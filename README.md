@@ -312,21 +312,31 @@ We discover vulnerabilities in **3** different router product of **TP-LINK**, re
 
 ## D-Link
 
-We discover vulnerabilities in **4** different router product of **D-Link**, revealed **16 vulnerabilities** and obtained **14 CVEs**, which is listed below.
+We discover vulnerabilities in **4** different router product of **D-Link**, revealed **26 vulnerabilities** and obtained **24 CVEs**, which is listed below.
 
-|    D-Link  Routers    | Vulnerable  function  |      CVE      | Type of vulnerability |
-| :-------------------: | :-------------------: | :-----------: | :-------------------: |
-| DIR-605L 2.13B01 BETA |  formSetEasy_Wizard   | CVE-2024-9555 |    Buffer Overflow    |
-|                       |  formSetEnableWizard  | CVE-2024-9556 |    Buffer Overflow    |
-|                       |    formSetWanPPPoE    | CVE-2024-9557 |    Buffer Overflow    |
-|                       |    formSetWanPPTP     | CVE-2024-9558 |    Buffer Overflow    |
-|                       |     formWlanSetup     | CVE-2024-9559 |    Buffer Overflow    |
-|                       |   formAdvanceSetup    | CVE-2024-9532 |    Buffer Overflow    |
-|                       |   formDeviceReboot    | CVE-2024-9533 |    Buffer Overflow    |
-|                       |  formEasySetPassword  | CVE-2024-9534 |    Buffer Overflow    |
-|                       | formEasySetupWWConfig | CVE-2024-9535 |    Buffer Overflow    |
-|                       |  formEasySetupWizard  | CVE-2024-9549 |    Buffer Overflow    |
-|                       |    formLogDnsquery    | CVE-2024-9550 |    Buffer Overflow    |
-|                       |    formSetWanL2TP     | CVE-2024-9551 |    Buffer Overflow    |
-|                       |  formSetWanNonLogin   | CVE-2024-9552 |    Buffer Overflow    |
-|                       |   formdumpeasysetup   | CVE-2024-9553 |    Buffer Overflow    |
+|    D-Link  Routers    | Vulnerable  function  |         CVE         | Type of vulnerability |
+| :-------------------: | :-------------------: | :-----------------: | :-------------------: |
+| DIR-605L 2.13B01 BETA |   formAdvanceSetup    |    CVE-2024-9532    |    Buffer Overflow    |
+|                       |   formDeviceReboot    |    CVE-2024-9533    |    Buffer Overflow    |
+|                       |  formEasySetPassword  |    CVE-2024-9534    |    Buffer Overflow    |
+|                       | formEasySetupWWConfig |    CVE-2024-9535    |    Buffer Overflow    |
+|                       | formEasySetupWizard   |    CVE-2024-9549    |    Buffer Overflow    |                  
+|                       |    formLogDnsquery    |    CVE-2024-9550    |    Buffer Overflow    |
+|                       |    formSetWanL2TP     |    CVE-2024-9551    |    Buffer Overflow    |
+|                       |  formSetWanNonLogin   |    CVE-2024-9552    |    Buffer Overflow    |
+|                       |   formdumpeasysetup   |    CVE-2024-9553    |    Buffer Overflow    |
+|                       |  formSetEasy_Wizard   |    CVE-2024-9555    |    Buffer Overflow    |
+|                       |  formSetEnableWizard  |    CVE-2024-9556    |    Buffer Overflow    |
+|                       |    formSetWanPPPoE    |    CVE-2024-9557    |    Buffer Overflow    |
+|                       |    formSetWanPPTP     |    CVE-2024-9558    |    Buffer Overflow    |
+|                       |     formWlanSetup     |    CVE-2024-9559    |    Buffer Overflow    |
+|                       |  formSetWAN_Wizard51  |    CVE-2024-9561    |    Buffer Overflow    |
+|                       |    formSetWizard1     |    CVE-2024-9562    |    Buffer Overflow    |
+|                       | formWlanSetup_Wizard  |    CVE-2024-9563    |    Buffer Overflow    |
+|                       |  formWlanWizardSetup  |    CVE-2024-9564    |    Buffer Overflow    |
+|                       |    formSetPassword    |    CVE-2024-9565    |    Buffer Overflow    |
+|   DIR-619L B1 2.06    |   formDeviceReboot    |    CVE-2024-9566    |    Buffer Overflow    |
+|                       |    formAdvFirewall    |    CVE-2024-9567    |    Buffer Overflow    |
+|                       |    formAdvNetwork     |    CVE-2024-9568    |    Buffer Overflow    |
+|                       |  formEasySetPassword  |    CVE-2024-9569    |    Buffer Overflow    |
+|                       |  formEasySetTimezone  |    CVE-2024-9570    |    Buffer Overflow    |
