@@ -3,6 +3,7 @@
 - [Tenda Vulnerabilities](#Tenda)
 - [TOTOLINK Vulnerabilities](#TOTOLINK)
 - [TP-LINK Vulnerabilities](#TP-LINK)
+- [D-Link Vulnerabilities](#D-Link)
 
 ## Tenda
 
@@ -307,3 +308,25 @@ We discover vulnerabilities in **3** different router product of **TP-LINK**, re
 | TOTOLINK  Routers | Vulnerable function |      CVE       |  Type of vulnerability   |
 | :---------------: | :-----------------: | :------------: | :----------------------: |
 |     TL-WR841ND    | popupSiteSurveyRpm  |  CVE-2024-9284 |     Buffer Overflow      |
+
+
+## D-Link
+
+We discover vulnerabilities in **4** different router product of **D-Link**, revealed **16 vulnerabilities** and obtained **14 CVEs**, which is listed below.
+
+|    D-Link  Routers    | Vulnerable  function  |      CVE      | Type of vulnerability |
+| :-------------------: | :-------------------: | :-----------: | :-------------------: |
+| DIR-605L 2.13B01 BETA |  formSetEasy_Wizard   | CVE-2024-9555 |    Buffer Overflow    |
+|                       |  formSetEnableWizard  | CVE-2024-9556 |    Buffer Overflow    |
+|                       |    formSetWanPPPoE    | CVE-2024-9557 |    Buffer Overflow    |
+|                       |    formSetWanPPTP     | CVE-2024-9558 |    Buffer Overflow    |
+|                       |     formWlanSetup     | CVE-2024-9559 |    Buffer Overflow    |
+|                       |   formAdvanceSetup    | CVE-2024-9532 |    Buffer Overflow    |
+|                       |   formDeviceReboot    | CVE-2024-9533 |    Buffer Overflow    |
+|                       |  formEasySetPassword  | CVE-2024-9534 |    Buffer Overflow    |
+|                       | formEasySetupWWConfig | CVE-2024-9535 |    Buffer Overflow    |
+|                       |  formEasySetupWizard  | CVE-2024-9549 |    Buffer Overflow    |
+|                       |    formLogDnsquery    | CVE-2024-9550 |    Buffer Overflow    |
+|                       |    formSetWanL2TP     | CVE-2024-9551 |    Buffer Overflow    |
+|                       |  formSetWanNonLogin   | CVE-2024-9552 |    Buffer Overflow    |
+|                       |   formdumpeasysetup   | CVE-2024-9553 |    Buffer Overflow    |
