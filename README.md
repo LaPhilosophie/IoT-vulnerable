@@ -342,3 +342,9 @@ We discover vulnerabilities in **4** different router product of **D-Link**, rev
 |                       |    formAdvNetwork     |    CVE-2024-9568    |    Buffer Overflow    |
 |                       |  formEasySetPassword  |    CVE-2024-9569    |    Buffer Overflow    |
 |                       |  formEasySetTimezone  |    CVE-2024-9570    |    Buffer Overflow    |
+|                       |  formEasySetupWWConfi |    CVE-2024-9782    |    Buffer Overflow    |
+|                       |    formLogDnsquery   |    CVE-2024-9783    |    Buffer Overflow    |
+|                       |   formResetStatistic |    CVE-2024-9784    |    Buffer Overflow    |
+|                       |      formSetDDNS     |    CVE-2024-9785    |    Buffer Overflow    |
+|                       |      formSetLog      |    CVE-2024-9786    |    Buffer Overflow    |
+ 
