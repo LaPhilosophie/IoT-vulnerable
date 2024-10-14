@@ -314,7 +314,7 @@ We discover vulnerabilities in **3** different router product of **TP-LINK**, re
 
 ## D-Link
 
-We discover vulnerabilities in **4** different router product of **D-Link**, revealed **26 vulnerabilities** and obtained **24 CVEs**, which is listed below.
+We discover vulnerabilities in **4** different router product of **D-Link**, revealed **34 vulnerabilities** and obtained **32 CVEs**, which is listed below.
 
 |    D-Link  Routers    | Vulnerable  function  |         CVE         | Type of vulnerability |
 | :-------------------: | :-------------------: | :-----------------: | :-------------------: |
