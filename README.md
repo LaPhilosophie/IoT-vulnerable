@@ -1,4 +1,12 @@
 # IoT-vulnerable
+
+- [Tenda Vulnerabilities](#Tenda)
+- [TOTOLINK Vulnerabilities](#TOTOLINK)
+- [TP-LINK Vulnerabilities](#TP-LINK)
+- [D-Link Vulnerabilities](#D-Link)
+
+## Tenda
+
 We discover vulnerabilities in **30** different router product of **Tenda**, revealed **258 vulnerabilities** and obtained **232 CVEs**, which is listed below.
 
 |     Tenda  Routers      |    Vulnerable  function    |      CVE       | Type of vulnerability |
@@ -235,3 +243,115 @@ We discover vulnerabilities in **30** different router product of **Tenda**, rev
 |                         |    formWifiMacFilterSet    | CVE-2024-4496  |    Buffer Overflow    |
 |                         |       formexeCommand       | CVE-2024-4497  |    Buffer Overflow    |
 |   i22 V1.0.0.3(4687)    |    formSetUrlFilterRule    | CVE-2024-4252  |    Buffer Overflow    |
+
+## TOTOLINK
+
+We discover vulnerabilities in **19** different router product of **TOTOLINK**, revealed **47 vulnerabilities** and obtained **44 CVEs**, which is listed below.
+| TOTOLINK  Routers | Vulnerable function |      CVE       |  Type of vulnerability   |
+| :---------------: | :-----------------: | :------------: | :----------------------: |
+|      A3000RU      |     product.ini     | CVE-2024-7170  |   Hard-Coded Password    |
+|      A3100R       |    setTelnetCfg     | CVE-2024-7158  |    Command Injection     |
+|                   |    getSaveConfig    | CVE-2024-7157  |     Buffer Overflow      |
+|      A3300R       |       shadow        | CVE-2024-7155  |   Hard-Coded Password    |
+|                   | UploadCustomModule  | CVE-2024-7331  |     Buffer Overflow      |
+|      A3600R       |     product.ini     | CVE-2024-7159  |   Hard-Coded Password    |
+|                   |   NTPSyncWithHost   | CVE-2024-7171  |    Command Injection     |
+|                   |    getSaveConfig    | CVE-2024-7172  |     Buffer Overflow      |
+|                   |      loginauth      | CVE-2024-7173  |     Buffer Overflow      |
+|                   |    setdeviceName    | CVE-2024-7174  |     Buffer Overflow      |
+|                   |   setDiagnosisCfg   | CVE-2024-7175  |    Command Injection     |
+|                   |    setIpQosRules    | CVE-2024-7176  |     Buffer Overflow      |
+|                   |   setLanguageCfg    | CVE-2024-7177  |     Buffer Overflow      |
+|                   |      setMacQos      | CVE-2024-7178  |     Buffer Overflow      |
+|                   |  setParentalRules   | CVE-2024-7179  |     Buffer Overflow      |
+|                   | setPortForwardRules | CVE-2024-7180  |     Buffer Overflow      |
+|                   |    setTelnetCfg     | CVE-2024-7181  |    Command Injection     |
+|                   |    setUpgradeFW     | CVE-2024-7182  |     Buffer Overflow      |
+|                   |  setUploadSetting   | CVE-2024-7183  |     Buffer Overflow      |
+|                   |  setUrlFilterRules  | CVE-2024-7184  |     Buffer Overflow      |
+|                   |    setWebWlanIdx    | CVE-2024-7185  |     Buffer Overflow      |
+|                   | setWiFiAclAddConfig | CVE-2024-7186  |     Buffer Overflow      |
+|                   | UploadCustomModule  | CVE-2024-7187  |     Buffer Overflow      |
+|      A3700R       |     wizard.html     | CVE-2024-7154  | Improper Access Controls |
+|                   |  ExportSettings.sh  | CVE-2024-7156  |  Information Disclosure  |
+|                   |      setWanCfg      | CVE-2024-7160  |    Command Injection     |
+|                   |      loginauth      | CVE-2024-42543 |     Buffer Overflow      |
+|                   |   setPasswordCfg    | CVE-2024-42544 |     Buffer Overflow      |
+|                   |    setWizardCfg     | CVE-2024-42545 |     Buffer Overflow      |
+|      A7000R       |      loginauth      | CVE-2024-7212  |     Buffer Overflow      |
+|                   |    setWizardCfg     | CVE-2024-7213  |     Buffer Overflow      |
+|     CA300-PoE     |      loginauth      | CVE-2024-7217  |     Buffer Overflow      |
+|       CP450       |       product       | CVE-2024-7332  |   Hard-Coded Password    |
+|                   |      loginauth      | CVE-2024-7465  |     Buffer Overflow      |
+|       CP900       | UploadCustomModule  | CVE-2024-7463  |     Buffer Overflow      |
+|                   |    setTelnetCfg     | CVE-2024-7464  |    Command Injection     |
+|       EX200       |      loginauth      | CVE-2024-7336  |     Buffer Overflow      |
+|                   |    getSaveConfig    | CVE-2024-7335  |     Buffer Overflow      |
+|      EX1200       |  setParentalRules   | CVE-2024-7338  |     Buffer Overflow      |
+|                   |      loginauth      | CVE-2024-7337  |     Buffer Overflow      |
+|       LR350       |      setWanCfg      | CVE-2024-7214  |    Command Injection     |
+|      LR1200       |   NTPSyncWithHost   | CVE-2024-7215  |    Command Injection     |
+|                   |       shadow        | CVE-2024-7216  |   Hard-Coded Password    |
+|      N350RT       |    setWizardCfg     | CVE-2024-7462  |     Buffer Overflow      |
+| AC1200 T8 |     setUpgradeFW     | CVE-2024-8574 |  Command Injection  |
+|           | setIpPortFilterRules | CVE-2024-8576 |   Buffer Overflow   |
+|           |  setStaticDhcpRules  | CVE-2024-8577 |   Buffer Overflow   |
+|           |   setWiFiMeshName    | CVE-2024-8578 |   Buffer Overflow   |
+|           |  setWiFiRepeaterCfg  | CVE-2024-8579 |   Buffer Overflow   |
+|           |        shadow        | CVE-2024-8580 | Hard-Coded Password |
+
+
+## TP-LINK
+
+We discover vulnerabilities in **3** different router product of **TP-LINK**, revealed **6 vulnerabilities** and obtained **3 CVEs**, which is listed below.
+
+| TOTOLINK  Routers | Vulnerable function |      CVE       |  Type of vulnerability   |
+| :---------------: | :-----------------: | :------------: | :----------------------: |
+|    TL-WR841ND v11 | popupSiteSurveyRpm  |  CVE-2024-9284 |     Buffer Overflow      |
+|    TL-WR941ND v6  | popupSiteSurveyRpm  | CVE-2024-46313 |     Buffer Overflow      |
+|    TL-WR740N V6   | popupSiteSurveyRpm  | CVE-2024-46325 |     Buffer Overflow      |
+
+
+## D-Link
+
+We discover vulnerabilities in **4** different router product of **D-Link**, revealed **34 vulnerabilities** and obtained **32 CVEs**, which is listed below.
+
+|    D-Link  Routers    | Vulnerable  function  |         CVE         | Type of vulnerability |
+| :-------------------: | :-------------------: | :-----------------: | :-------------------: |
+| DIR-605L 2.13B01 BETA |   formAdvanceSetup    |    CVE-2024-9532    |    Buffer Overflow    |
+|                       |   formDeviceReboot    |    CVE-2024-9533    |    Buffer Overflow    |
+|                       |  formEasySetPassword  |    CVE-2024-9534    |    Buffer Overflow    |
+|                       | formEasySetupWWConfig |    CVE-2024-9535    |    Buffer Overflow    |
+|                       | formEasySetupWizard   |    CVE-2024-9549    |    Buffer Overflow    |                  
+|                       |    formLogDnsquery    |    CVE-2024-9550    |    Buffer Overflow    |
+|                       |    formSetWanL2TP     |    CVE-2024-9551    |    Buffer Overflow    |
+|                       |  formSetWanNonLogin   |    CVE-2024-9552    |    Buffer Overflow    |
+|                       |   formdumpeasysetup   |    CVE-2024-9553    |    Buffer Overflow    |
+|                       |  formSetEasy_Wizard   |    CVE-2024-9555    |    Buffer Overflow    |
+|                       |  formSetEnableWizard  |    CVE-2024-9556    |    Buffer Overflow    |
+|                       |    formSetWanPPPoE    |    CVE-2024-9557    |    Buffer Overflow    |
+|                       |    formSetWanPPTP     |    CVE-2024-9558    |    Buffer Overflow    |
+|                       |     formWlanSetup     |    CVE-2024-9559    |    Buffer Overflow    |
+|                       |  formSetWAN_Wizard51  |    CVE-2024-9561    |    Buffer Overflow    |
+|                       |    formSetWizard1     |    CVE-2024-9562    |    Buffer Overflow    |
+|                       | formWlanSetup_Wizard  |    CVE-2024-9563    |    Buffer Overflow    |
+|                       |  formWlanWizardSetup  |    CVE-2024-9564    |    Buffer Overflow    |
+|                       |    formSetPassword    |    CVE-2024-9565    |    Buffer Overflow    |
+|   DIR-619L B1 2.06    |   formDeviceReboot    |    CVE-2024-9566    |    Buffer Overflow    |
+|                       |    formAdvFirewall    |    CVE-2024-9567    |    Buffer Overflow    |
+|                       |    formAdvNetwork     |    CVE-2024-9568    |    Buffer Overflow    |
+|                       |  formEasySetPassword  |    CVE-2024-9569    |    Buffer Overflow    |
+|                       |  formEasySetTimezone  |    CVE-2024-9570    |    Buffer Overflow    |
+|                       |  formEasySetupWWConfi |    CVE-2024-9782    |    Buffer Overflow    |
+|                       |    formLogDnsquery   |    CVE-2024-9783    |    Buffer Overflow    |
+|                       |   formResetStatistic |    CVE-2024-9784    |    Buffer Overflow    |
+|                       |      formSetDDNS     |    CVE-2024-9785    |    Buffer Overflow    |
+|                       |      formSetLog      |    CVE-2024-9786    |    Buffer Overflow    |
+|                 |    formSetMACFilter     | CVE-2024-9908 |    Buffer Overflow    |
+|                 |       formSetMuti       | CVE-2024-9909 |    Buffer Overflow    |
+|                 |     formSetPassword     | CVE-2024-9910 |    Buffer Overflow    |
+|                 |      formSetPortTr      | CVE-2024-9911 |    Buffer Overflow    |
+|                 |       formSetQoS        | CVE-2024-9912 |    Buffer Overflow    |
+|                 |      formSetRoute       | CVE-2024-9913 |    Buffer Overflow    |
+|                 | formSetWizardSelectMode | CVE-2024-9914 |    Buffer Overflow    |
+|                 |     formVirtualServ     | CVE-2024-9915 |    Buffer Overflow    |
