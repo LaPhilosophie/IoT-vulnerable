@@ -347,4 +347,11 @@ We discover vulnerabilities in **4** different router product of **D-Link**, rev
 |                       |   formResetStatistic |    CVE-2024-9784    |    Buffer Overflow    |
 |                       |      formSetDDNS     |    CVE-2024-9785    |    Buffer Overflow    |
 |                       |      formSetLog      |    CVE-2024-9786    |    Buffer Overflow    |
- 
+|                 |    formSetMACFilter     | CVE-2024-9908 |    Buffer Overflow    |
+|                 |       formSetMuti       | CVE-2024-9909 |    Buffer Overflow    |
+|                 |     formSetPassword     | CVE-2024-9910 |    Buffer Overflow    |
+|                 |      formSetPortTr      | CVE-2024-9911 |    Buffer Overflow    |
+|                 |       formSetQoS        | CVE-2024-9912 |    Buffer Overflow    |
+|                 |      formSetRoute       | CVE-2024-9913 |    Buffer Overflow    |
+|                 | formSetWizardSelectMode | CVE-2024-9914 |    Buffer Overflow    |
+|                 |     formVirtualServ     | CVE-2024-9915 |    Buffer Overflow    |
