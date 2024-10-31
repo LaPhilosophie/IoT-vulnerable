@@ -305,7 +305,7 @@ We discover vulnerabilities in **19** different router product of **TOTOLINK**, 
 
 We discover vulnerabilities in **3** different router product of **TP-LINK**, revealed **6 vulnerabilities** and obtained **3 CVEs**, which is listed below.
 
-| TOTOLINK  Routers | Vulnerable function |      CVE       |  Type of vulnerability   |
+| TP-LINK  Routers | Vulnerable function |      CVE       |  Type of vulnerability   |
 | :---------------: | :-----------------: | :------------: | :----------------------: |
 |    TL-WR841ND v11 | popupSiteSurveyRpm  |  CVE-2024-9284 |     Buffer Overflow      |
 |    TL-WR941ND v6  | popupSiteSurveyRpm  | CVE-2024-46313 |     Buffer Overflow      |
