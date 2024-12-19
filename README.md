@@ -281,7 +281,7 @@ We discover vulnerabilities in **19** different router product of **TOTOLINK**, 
 |      A7000R       |      loginauth      | CVE-2024-7212  |     Buffer Overflow      |
 |                   |    setWizardCfg     | CVE-2024-7213  |     Buffer Overflow      |
 |     CA300-PoE     |      loginauth      | CVE-2024-7217  |     Buffer Overflow      |
-|       CP450       |       product       | CVE-2024-7332  |   Hard-Coded Password    |
+|       CP450       |     product.ini     | CVE-2024-7332  |   Hard-Coded Password    |
 |                   |      loginauth      | CVE-2024-7465  |     Buffer Overflow      |
 |       CP900       | UploadCustomModule  | CVE-2024-7463  |     Buffer Overflow      |
 |                   |    setTelnetCfg     | CVE-2024-7464  |    Command Injection     |
@@ -305,7 +305,7 @@ We discover vulnerabilities in **19** different router product of **TOTOLINK**, 
 
 We discover vulnerabilities in **3** different router product of **TP-LINK**, revealed **6 vulnerabilities** and obtained **3 CVEs**, which is listed below.
 
-| TOTOLINK  Routers | Vulnerable function |      CVE       |  Type of vulnerability   |
+| TP-LINK  Routers | Vulnerable function |      CVE       |  Type of vulnerability   |
 | :---------------: | :-----------------: | :------------: | :----------------------: |
 |    TL-WR841ND v11 | popupSiteSurveyRpm  |  CVE-2024-9284 |     Buffer Overflow      |
 |    TL-WR941ND v6  | popupSiteSurveyRpm  | CVE-2024-46313 |     Buffer Overflow      |
